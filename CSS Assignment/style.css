@@ -1,0 +1,81 @@
+table {
+    padding: 0px;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 80%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+body{
+    background-color: lightsteelblue;
+
+}
+th {
+    background-color: aqua;
+}
+
+
+button {
+    padding: 3px 5px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+     border-radius: 15%;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+
+}
+
+td:hover {
+    background-color: gold;
+}
+
+#first {
+    background-color: #abbd46;
+}
+
+#first button:hover {
+    background-color: blue;
+
+}
+
+#second {
+    background-color: burlywood;
+}
+
+#second button:hover {
+    background-color: red;
+}
+#div,footerbottom{
+    float: none;
+    overflow: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0%;
+    background:gray;
+    color: #fff;
+    padding: 25px;
+}
+#input2{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size:20px;
+    justify-content: last:space-around;
+}
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
